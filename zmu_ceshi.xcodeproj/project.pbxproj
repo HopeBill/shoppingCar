@@ -15,6 +15,7 @@
 		9B71A9591FECA841000F0A75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B71A9581FECA841000F0A75 /* main.m */; };
 		9B71A9631FECA841000F0A75 /* zmu_ceshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B71A9621FECA841000F0A75 /* zmu_ceshiTests.m */; };
 		9B71A96E1FECA841000F0A75 /* zmu_ceshiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B71A96D1FECA841000F0A75 /* zmu_ceshiUITests.m */; };
+		9B71A97E1FECABCF000F0A75 /* shoppingCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B71A97D1FECABCF000F0A75 /* shoppingCarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9B71A9691FECA841000F0A75 /* zmu_ceshiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zmu_ceshiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B71A96D1FECA841000F0A75 /* zmu_ceshiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zmu_ceshiUITests.m; sourceTree = "<group>"; };
 		9B71A96F1FECA841000F0A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B71A97C1FECABCF000F0A75 /* shoppingCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shoppingCarViewController.h; sourceTree = "<group>"; };
+		9B71A97D1FECABCF000F0A75 /* shoppingCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shoppingCarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		9B71A9481FECA841000F0A75 /* zmu_ceshi */ = {
 			isa = PBXGroup;
 			children = (
+				9B71A97B1FECABBE000F0A75 /* shoppingCar */,
 				9B71A9491FECA841000F0A75 /* AppDelegate.h */,
 				9B71A94A1FECA841000F0A75 /* AppDelegate.m */,
 				9B71A94C1FECA841000F0A75 /* ViewController.h */,
@@ -131,6 +135,15 @@
 			);
 			path = zmu_ceshiUITests;
 			sourceTree = "<group>";
+		};
+		9B71A97B1FECABBE000F0A75 /* shoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+				9B71A97C1FECABCF000F0A75 /* shoppingCarViewController.h */,
+				9B71A97D1FECABCF000F0A75 /* shoppingCarViewController.m */,
+			);
+			path = shoppingCar;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -268,6 +281,7 @@
 				9B71A94E1FECA841000F0A75 /* ViewController.m in Sources */,
 				9B71A9591FECA841000F0A75 /* main.m in Sources */,
 				9B71A94B1FECA841000F0A75 /* AppDelegate.m in Sources */,
+				9B71A97E1FECABCF000F0A75 /* shoppingCarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
