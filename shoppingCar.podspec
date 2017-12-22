@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
 
     s.license              = { :type => "MIT", :file => "LICENSE" }
 
-    s.author             = { "Jonzzs" => "292710547@qq.com" }
+    s.author             = { "Bill" => "1255418023@qq.com" }
 
-    s.social_media_url   = "http://weibo.com/Jonzzs"
+    s.social_media_url   = "https://github.com/LiBiYong/zmu_ceshi"
 
     s.source       = {:git => "https://github.com/LiBiYong/zmu_ceshi.git", :tag => s.version }
 
